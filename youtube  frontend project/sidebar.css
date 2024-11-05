@@ -1,0 +1,38 @@
+.sidebar {
+    /* margin-top: 0;
+    width: 72px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-bottom: 80px; */
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    background-color: white;
+    width: 72px;
+    z-index: 200;
+    padding-top: 5px;
+    margin-top: 26px;
+}
+
+p {
+    font-size: 10px;
+}
+
+.sidebar-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 72px;
+}
+
+.contents {
+    width: 30px;
+    height: 40px;
+}

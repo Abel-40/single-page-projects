@@ -1,0 +1,156 @@
+body {
+    background-color: #dddcdc;
+    margin: 0;
+    height: 100vh;
+}
+
+.header-span {
+    display: flex;
+    height: 55px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-span a {
+    font-weight: 600;
+    color: black;
+    font-size: 18px;
+
+}
+
+.header-span a:hover {
+    color: #908c8c;
+}
+
+.nav-container {
+    height: 80px;
+    box-sizing: border-box;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid rgba(116, 108, 108, 0.3);
+}
+
+.left-nav {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: auto;
+    height: 49px;
+
+}
+
+.logo {
+    width: 100px;
+    height: 100%;
+    margin-left: 40px;
+}
+
+
+
+.center-nav {
+    box-sizing: border-box;
+    width: auto;
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 25px;
+    background-color: white;
+    margin-left: 112px;
+    padding: 0 35px;
+}
+
+.center-buttons {
+    text-wrap: nowrap;
+    font-size: 15px;
+    height: 22px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    border-right: 2px solid #dddcdc;
+    margin: 0 10px 0 5px;
+    padding-right: 10px;
+}
+
+.center-buttons:hover {
+    color: #908c8c;
+}
+
+.center-buttons:active {
+    color: #d5cdcd;
+}
+
+.center-nav a:last-of-type {
+    border: none;
+
+}
+
+.search {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+}
+
+.right-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    margin-left: 25px;
+
+}
+
+.profile {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border: 0.5px solid #dddcdc;
+    border-radius: 25px;
+    width: 90px;
+    height: 49px;
+}
+
+.right-nav1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px;
+}
+
+.right-nav1 a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: black;
+    font-weight: bold;
+    text-wrap: nowrap;
+}
+
+.right-nav1 a:hover {
+    color: #908c8c;
+}
+
+.expl {
+    width: 25px;
+    height: 25px;
+}
+
+.pp {
+    object-fit: contain;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+
+.hum {
+    width: 25px;
+    height: 25px;
+}

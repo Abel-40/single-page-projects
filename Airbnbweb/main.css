@@ -1,0 +1,112 @@
+.big-nav {
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+}
+
+.main-nav {
+    width: auto;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70px;
+
+}
+
+.filter {
+    text-align: start;
+    height: 28px;
+    border: 1px solid rgba(116, 108, 108, 0.3);
+    padding: 5px;
+    padding-right: 5px;
+    border-radius: 8px;
+    margin-left: 8px;
+}
+
+.filter:hover {
+    background-color: #f2f2f2;
+}
+
+.filter-icon {
+    width: 17.6px;
+    height: 25px;
+    vertical-align: bottom;
+}
+
+.nav {
+    border: 1px solid blue;
+    background-color: black;
+    width: 35px;
+    height: 40px;
+
+}
+
+.right-mainnav {
+    text-align: center;
+    border: 1px solid rgba(116, 108, 108, 0.3);
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.main-nav a {
+    text-decoration: none;
+}
+
+.main-grid {
+    background-color: rgb(165, 165, 219);
+    display: grid;
+    grid-template-columns: 270px 270px 270px;
+    column-gap: 20px;
+    justify-content: center;
+
+
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+
+    width: 270px;
+    height: 370px;
+
+}
+
+.grid-item:hover {
+    transform: scaleX(1.1) scaleY(1.1);
+    /*it's equall to scale(1.1)*/
+}
+
+.img-container {
+    background-color: black;
+    width: inherit;
+    height: 260px;
+    border-radius: 12px;
+}
+
+
+
+.info-container {
+    line-height: 5px;
+    margin: 0;
+    width: inherit;
+    height: 110px;
+
+}
+
+.home-name {
+    line-height: 0;
+    font-weight: bolder;
+}
+
+.added-week,
+.date {
+    color: gray;
+    font-weight: 200;
+}
+
+.money {
+    font-weight: bolder
+}
